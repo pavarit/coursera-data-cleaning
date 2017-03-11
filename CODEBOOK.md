@@ -25,7 +25,9 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-Additionally, each feature has 2 variables from the signals: 
+Variables containing 'Acc' are acceleration data while 'Gyro' are angular velocity from gyroscope. Features are normalized and bounded within [-1,1].
+
+Additionally, each feature has 2 variables from the signals. Each of these are computed by averaging from the beginning data set.
 
 mean(): Mean value
 std(): Standard deviation
